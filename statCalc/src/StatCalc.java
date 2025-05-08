@@ -1,8 +1,8 @@
 public class StatCalc { //I honestly just wrote this on a whim since the author for a story I was reading was pretty transparent about their formula for stats etc.
     public static void main(String[] args) throws Exception {
         try {
-            System.out.println(stats(Integer.parseInt(args[0])));
-            System.out.println(credits(Integer.parseInt(args[0])));
+            System.out.println("Stats at level "+args[0]+": "+stats(Integer.parseInt(args[0])));
+            System.out.println("Credits at level "+args[0]+": "+credits(Integer.parseInt(args[0])));
         } catch (NumberFormatException e) {
             System.out.println("Invalid input, integers only.");
         } catch (OutOfRangeException e) {
