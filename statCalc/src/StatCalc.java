@@ -1,4 +1,4 @@
-public class StatCalc {
+public class StatCalc { //I honestly just wrote this on a whim since the author for a story I was reading was pretty transparent about their formula for stats etc.
     public static void main(String[] args) throws Exception {
         try {
             System.out.println(stats(Integer.parseInt(args[0])));
